@@ -195,8 +195,26 @@ header .menu .c3:hover { background: #002d44; }
 
 
 /* MEDIAQUERIES */
+
+@media (max-width: 374px) {
+    h2, p {
+        font-size: 0.8rem !important;
+    }
+}
+
+
 /* Dispositivo sm */
 @media screen and (max-width: 576px){
+
+	.icono-movil {
+		width: 30px;
+		height: 30px;
+	}
+
+	.acerca-de .info .resumen {
+		text-align: center;
+	}
+
 	.redes-sociales .icono {
 		width: 70px;
 		height: 70px;
