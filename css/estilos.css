@@ -1,7 +1,7 @@
 body {
 	background: #4CA1AF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #C4E0E5, #4CA1AF);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #C4E0E5, #4CA1AF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: -webkit-linear-gradient(to top, #C4E0E5, #9dccd3);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to top, #C4E0E5, #9dccd3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
 	font-family: 'Open Sans', sans-serif;
 }
@@ -27,13 +27,13 @@ header .logo p {
 	color: #777777;
 }
 
-header .menu .c1 { background: #3da5e2; }
-header .menu .c2 { background: #00619d; }
-header .menu .c3 { background: #00557f; }
+header .menu .c1 { background: #00a7cc; }
+header .menu .c2 { background: #0083B0; }
+header .menu .c3 { background: #014985; }
 
-header .menu .c1:hover { background: #118fd8; }
-header .menu .c2:hover { background: #00426a; }
-header .menu .c3:hover { background: #002d44; }
+header .menu .c1:hover { background: #0090b0; }
+header .menu .c2:hover { background: #006d92; }
+header .menu .c3:hover { background: #013b6a; }
 
 /* MAIN */
 /* Portafolio */
