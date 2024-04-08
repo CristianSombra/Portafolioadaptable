@@ -1,14 +1,12 @@
 body {
-	background: #4CA1AF;  /* fallback for old browsers */
-	background: -webkit-linear-gradient(to top, #C4E0E5, #9dccd3);  /* Chrome 10-25, Safari 5.1-6 */
-	background: linear-gradient(to top, #C4E0E5, #9dccd3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+	background: #4CA1AF; 
+	background: -webkit-linear-gradient(to top, #C4E0E5, #9dccd3);
+	background: linear-gradient(to top, #C4E0E5, #9dccd3);
 	font-family: 'Open Sans', sans-serif;
 }
 
 header .nav {
 	min-height: 80px;
-	overflow: hidden;
 }
 
 header .logo h2,
@@ -27,13 +25,34 @@ header .logo p {
 	color: #777777;
 }
 
-header .menu .c1 { background: #00a7cc; }
-header .menu .c2 { background: #0083B0; }
-header .menu .c3 { background: #014985; }
+header .menu .c1 { 
+	background: #00a7cc; 
+	transition: transform 0.3s ease;
+}
+header .menu .c2 { 
+	background: #0083B0; 
+	transition: transform 0.3s ease;
+}
 
-header .menu .c1:hover { background: #0090b0; }
-header .menu .c2:hover { background: #006d92; }
-header .menu .c3:hover { background: #013b6a; }
+header .menu .c3 { 
+	background: #014985; 
+	transition: transform 0.3s ease;
+}
+
+header .menu .c1:hover { 
+	background: #0090b0; 
+	transform: translateY(-5px);
+}
+
+header .menu .c2:hover { 
+	background: #006d92; 
+	transform: translateY(-5px);
+}
+
+header .menu .c3:hover { 
+	background: #013b6a; 
+	transform: translateY(-5px);
+}
 
 /* MAIN */
 /* Portafolio */
